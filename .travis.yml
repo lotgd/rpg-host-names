@@ -1,0 +1,8 @@
+sudo: false
+language: php
+php:
+  - hhvm
+install:
+  - composer install
+script:
+  - phpunit tests/

@@ -1,0 +1,14 @@
+{
+  "name": "lotgd/rpg-host-names",
+  "type": "library",
+  "description": "Simple service to generate random RPG-inspired hostnames, using adjective/noun pairs.",
+  "require": {
+    "hhvm": "~3.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LotGD\\": "src/"
+    }
+  }
+}
